@@ -1,0 +1,13 @@
+package com.ecommerce.Product.utils;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class APIResponse {
+private String message;
+private boolean success;
+}
