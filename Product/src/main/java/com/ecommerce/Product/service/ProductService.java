@@ -33,10 +33,18 @@ public class ProductService {
         return  modelMapper.map(updatedProduct, ProductResponse.class);
     }
 
+//    Getting product by Id
+    public ProductResponse getProductId(Long id){
+        Product product = productRepository.findByIdAndActiveTrue(id).orElseThrow(()-> new ResourceNotFoundException("Product", "Product Id", String.valueOf(id)));
+        return modelMapper.map(product, ProductResponse.class);
+    }
+
 //    Get all products
     public List<ProductResponse> getAllProducts(){
         List<Product> products = productRepository.findByActiveTrue();
-        return products.stream().map(product -> modelMapper.map(product, ProductResponse.class)).toList();
+        return products.stream()
+                .filter(product -> product.getActive() == true)
+                       .map(product -> modelMapper.map(product, ProductResponse.class)).toList();
     }
 
     public boolean  deleteProduct(Long id){

@@ -16,11 +16,11 @@ public class GlobalExceptionHandling {
             return new ResponseEntity<>(apiResponse, HttpStatus.NOT_FOUND);
     }
 
-//    @ExceptionHandler(InSufficientStockException.class)
-//    public ResponseEntity<APIResponse> handlingOutOfStockException(InSufficientStockException exception){
-//        String message = exception.getMessage();
-//        APIResponse apiResponse = new APIResponse(message, false);
-//        return new ResponseEntity<>(apiResponse, HttpStatus.BAD_REQUEST);
-//    }
+    @ExceptionHandler(InSufficientStockException.class)
+    public ResponseEntity<APIResponse> handlingOutOfStockException(InSufficientStockException exception){
+        String message = exception.getMessage();
+        APIResponse apiResponse = new APIResponse(message, false);
+        return new ResponseEntity<>(apiResponse, HttpStatus.BAD_REQUEST);
+    }
 
 }

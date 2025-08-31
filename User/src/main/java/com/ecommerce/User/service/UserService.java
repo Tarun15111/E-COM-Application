@@ -24,16 +24,18 @@ public class UserService {
         return userRepository.findAll();
     }
 
-    public  User getUser(Long id){
-        return userRepository.findById(id).orElseThrow(()-> new RuntimeException(("User not found with id: " + id)));
+    public  User getUser(String id){
+        return userRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("User", "User id", id));
     }
 
-    public  boolean  updateUser(Long id, User user){
-        User user1 = userRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("User", "User Id", String.valueOf(id)));
+    public  boolean  updateUser(String id, User user){
+        User user1 = userRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("User", "User Id", id));
         return userRepository.findById(id)
                              .map(existingUser ->{
                             existingUser.setFirstName(user.getFirstName());
                             existingUser.setLastName(user.getLastName());
+                            existingUser.setEmail(user.getEmail());
+                            existingUser.setPhone(user.getPhone());
                             userRepository.save(existingUser);
                             return  true;
         }).orElse(false);

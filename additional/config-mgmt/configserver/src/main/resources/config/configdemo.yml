@@ -1,0 +1,34 @@
+#spring:
+#  application:
+#    name: configdemo
+
+#Optional here will take the input from local configuration
+# If config server is down
+#  config:
+#    import: optional:configserver:http://localhost:8888
+#
+#  profiles:
+#    active: dev
+
+build:
+  id: 101
+  version: 1.2.3
+  name: "Native Default-Build"
+  type: "Native Default Build"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
+#build:
+#  id: 122
+#  version: 2.2.2
+#  name: "Default build"
+#  type: "Default Build"
+
+#build:
+#  id: ${ID}
+#  name: ${NAME}
+#  version: ${VERSION}

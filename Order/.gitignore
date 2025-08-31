@@ -35,3 +35,4 @@ build/
 # Ignore Spring Boot config files
 application.properties
 application.yml
+.env

@@ -3,6 +3,7 @@ package com.ecommerce.User.controller;
 import com.ecommerce.User.dto.UserRequest;
 import com.ecommerce.User.dto.UserResponse;
 import com.ecommerce.User.model.User;
+import com.ecommerce.User.repository.UserRepository;
 import com.ecommerce.User.service.UserService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,7 +40,7 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<UserResponse> getUserById(@PathVariable long id){
+    public ResponseEntity<UserResponse> getUserById(@PathVariable String id){
         User user = userService.getUser(id);
         if(user == null){
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
@@ -49,10 +50,11 @@ public class UserController {
     }
 
     @PutMapping("/{id}")
-    public  ResponseEntity<User> updateUser(@PathVariable  Long id, @RequestBody UserRequest userRequest){
+    public  ResponseEntity<UserResponse> updateUser(@PathVariable  String id, @RequestBody UserRequest userRequest){
             User user = modelMapper.map(userRequest, User.class);
             if(userService.updateUser(id, user)){
-                return ResponseEntity.ok(user);
+                UserResponse userResponse = modelMapper.map(user, UserResponse.class);
+                return ResponseEntity.ok(userResponse);
             }
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
     }

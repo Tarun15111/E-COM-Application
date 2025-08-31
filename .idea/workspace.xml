@@ -5,12 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66fb5154-9f7f-4f48-9d15-fdb3b28bd555" name="Changes" comment="E-Com application with monolith">
+      <change afterPath="$PROJECT_DIR$/additional/.idea/Spring_18062025.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional/config-mgmt/.idea/config-mgmt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional/interservice/.idea/interservice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/.idea/Spring_18062025.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/EcomApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/controller/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/dto/AddressDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/dto/CartItemRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/dto/CartItemResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/dto/OrderItemDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/dto/OrderResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/dto/ProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/dto/ProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/dto/UserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/dto/UserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/exception/GlobalExceptionHandling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/exception/InSufficientStockException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/model/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/model/CartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/model/OrderItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/model/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/model/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/repository/CartItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/service/CartItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/java/com/ecom/utils/APIResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Monolithic/ecom/src/test/java/com/ecom/EcomApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Order/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/ecommerce/Order/dto/CartItemResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/ecommerce/Order/dto/CartItemResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/ecommerce/Order/exception/GlobalExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/ecommerce/Order/exception/GlobalExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/src/main/java/com/ecommerce/Order/service/CartItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/ecommerce/Order/service/CartItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Product/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/src/main/java/com/ecommerce/Product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/java/com/ecommerce/Product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/src/main/java/com/ecommerce/Product/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/java/com/ecommerce/Product/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product/src/main/java/com/ecommerce/Product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product/src/main/java/com/ecommerce/Product/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/User/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/User/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/src/main/java/com/ecommerce/User/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/com/ecommerce/User/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/src/main/java/com/ecommerce/User/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/com/ecommerce/User/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/src/main/java/com/ecommerce/User/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/com/ecommerce/User/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/src/main/java/com/ecommerce/User/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/com/ecommerce/User/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/src/main/java/com/ecommerce/User/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/User/src/main/java/com/ecommerce/User/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +122,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EcomApplication.executor": "Run",
-    "Application.OrderApplication.executor": "Run",
-    "Application.ProductApplication.executor": "Run",
-    "Application.UserApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/web/Java/E-Commerce/Product",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.57586205",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EcomApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurekaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/web/Java/E-Commerce&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.57586205&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ecom.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\Java\E-Commerce\config-server\src\main\resources\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ecommerce.Order.dto" />
+      <recent name="com.ecommerce.Order.model" />
+      <recent name="com.ecommerce.Order.exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,6 +161,73 @@
         <option value="Application" />
       </set>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.EurekaApplication">
+    <configuration name="ConfigserverApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.configserver.ConfigserverApplication" />
+      <module name="configserver" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/configserver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.eureka.EurekaApplication" />
+      <module name="eureka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="envFilePaths">
+        <option value="$PROJECT_DIR$/Order/.env" />
+      </option>
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.Order.OrderApplication" />
+      <module name="Order" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Order" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="envFilePaths">
+        <option value="$PROJECT_DIR$/Product/.env" />
+      </option>
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.Product.ProductApplication" />
+      <module name="Product" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Product" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="envFilePaths">
+        <option value="$PROJECT_DIR$/User/.env" />
+      </option>
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.User.UserApplication" />
+      <module name="User" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/User" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConfigserverApplication" />
+      <item itemvalue="Application.UserApplication" />
+      <item itemvalue="Application.EurekaApplication" />
+      <item itemvalue="Application.OrderApplication" />
+      <item itemvalue="Application.ProductApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,6 +239,9 @@
       <updated>1754013431538</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -101,5 +257,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="E-Com application with monolith" />
     <option name="LAST_COMMIT_MESSAGE" value="E-Com application with monolith" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/E_Commerce$ProductApplication.ic" NAME="ProductApplication Coverage Results" MODIFIED="1755971181664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.ecommerce.Product.*</FILTER>
+    </SUITE>
   </component>
 </project>
